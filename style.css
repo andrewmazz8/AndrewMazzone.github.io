@@ -1,0 +1,38 @@
+
+a {
+  font-variant :small-caps;
+  color : 	#1e90ff;
+   }
+
+   P {
+    color : red;
+      }
+      header {
+      color: Red;
+       }
+li {
+color: 	#1e90ff;
+}
+
+
+ body {
+   font-family: "Arial", sans-serif;
+ }
+
+header { text-align:center;
+color:	#50BFE6;
+background-image: url("ColabelloHRDickey1.gif");
+background-repeat:  repeat;
+height:250px
+}
+
+
+Body {
+text-align: center;
+   background-color:lightblue;
+;
+
+
+}
+
+</style>
