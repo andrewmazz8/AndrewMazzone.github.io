@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Tic Tac Toe </title>
+  <link rel="stylesheet" href="Tictactoe.css">
+
+<script src="tictactoescript.js"> </script>
+</head>
+
+
+<body>
+
+<main>
+  <button onclick=reset()>Reset</button>
+<table id="grid">
+<tr>
+  <td onclick="appear(this)" id="box1"></td>
+  <td onclick="appear(this)" id="box2"></td>
+  <td onclick="appear(this)" id="box3"></td>
+</tr>
+<tr>
+  <td onclick="appear(this)" id="box4"></td>
+  <td onclick="appear(this)" id="box5"></td>
+  <td onclick="appear(this)" id="box6"></td>
+</tr>
+<tr>
+  <td onclick="appear(this)" id="box7"></td>
+  <td onclick="appear(this)" id="box8"></td>
+  <td onclick="appear(this)" id="box9"></td>
+</tr>
+</table>
+<p id="xwin"></p>
+<p id="owin"></p>
+</main>
+</body>
+</html>

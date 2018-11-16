@@ -1,0 +1,44 @@
+
+body {
+
+    background-color: dodgerblue;
+    color: white;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid black;
+text-align: center;
+margin: 0 auto;
+
+
+}
+td {
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+
+}
+
+td:hover {
+  background-color: green;
+
+}
+
+#grid{
+  text-align: center;
+}
+
+            button{background: Navy;
+                   color: White;
+                   font-weight: bold;
+                   border: 1px solid yellow;
+                    cursor: pointer;
+                    width: 200px;
+                    height: 40px;
+                    font-size: 22px;
+                    display: block;
+                    margin: 10px auto;
+                        }
